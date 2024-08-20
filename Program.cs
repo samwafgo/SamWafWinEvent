@@ -18,7 +18,7 @@ namespace SamWafWinEvent
         private static readonly string TokenFilePath = "access_token.json";
         private static readonly string LogFilePath = "notification_log.json";
         //每天通知的最大值
-        private static readonly int MaxNotificationsPerDay = 10;
+        private static readonly int MaxNotificationsPerDay = 100;
         private static readonly TimeSpan NotificationInterval = TimeSpan.FromMinutes(1);
         /// <summary>
         ///  The main entry point for the application.
